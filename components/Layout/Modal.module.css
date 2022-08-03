@@ -1,0 +1,66 @@
+.background {
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal {
+  background-color: white;
+  border-radius: 50px;
+  position: fixed;
+  top: 10vh;
+  left: 15%;
+  width: 70%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nftCard {
+  border: 2px solid rgb(174, 174, 174);
+  border-radius: 7px;
+  margin: 5%;
+  padding: 1%;
+  padding-top: 0;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.nftCard > img {
+  width: 80%;
+  align-self: center;
+}
+
+.tokenId {
+  color: grey;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-top: 4%;
+}
+
+.price {
+  font-size: x-large;
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

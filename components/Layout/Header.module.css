@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+  border-bottom: 1px solid rgb(174, 174, 174);
+}
+.header > h1 {
+  margin-left: 2%;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 1%;
+}
+
+.link {
+  font-size: 1.5rem;
+}
+
+.active {
+  border-bottom: 2px solid rgb(174, 174, 174);
+}
+
+.connect {
+  width: 15%;
+}

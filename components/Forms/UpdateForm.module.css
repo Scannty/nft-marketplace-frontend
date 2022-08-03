@@ -1,0 +1,76 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > label {
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid rgb(103, 101, 101);
+}
+.form > input {
+  width: 120%;
+  border: 2px solid rgb(174, 174, 174);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.or {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: rgb(103, 101, 101);
+}
+
+.footer {
+  margin-top: 25%;
+  margin-bottom: 35%;
+}
+
+.cancelButton {
+  width: 70%;
+  height: 2.7rem;
+  border-radius: 15px;
+  font-weight: bold;
+  border: 1.5px solid #940f08;
+  color: #940f08;
+  background-color: #f8dddd;
+}
+.cancelButton:hover {
+  background-color: #f3bcbc;
+  cursor: pointer;
+}
+
+.closeButton {
+  position: absolute;
+  left: 6%;
+  width: 14%;
+  height: 2.5rem;
+  border: 1.5px solid #3e7cb1;
+  border-radius: 15px;
+  background-color: white;
+}
+.closeButton:hover {
+  background-color: #3e7cb1;
+  color: white;
+  cursor: pointer;
+}
+
+.submitButton {
+  position: absolute;
+  right: 6%;
+  width: 14%;
+  height: 2.5rem;
+  background-color: #2a8640;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+}
+.submitButton:hover {
+  background-color: #19692c;
+  cursor: pointer;
+}

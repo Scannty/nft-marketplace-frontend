@@ -1,0 +1,4 @@
+.nftList {
+  display: flex;
+  flex-wrap: wrap;
+}

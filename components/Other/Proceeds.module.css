@@ -1,0 +1,18 @@
+.withdraw {
+  margin-left: 0.7%;
+}
+
+.withdrawButton {
+  margin-top: 0.5%;
+  width: 15%;
+  height: 2.8rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #2a8640;
+  font-weight: bold;
+  color: white;
+}
+.withdrawButton:hover {
+  background-color: #19692c;
+  cursor: pointer;
+}

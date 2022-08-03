@@ -1,0 +1,31 @@
+.nft {
+  background-color: rgb(223, 235, 245);
+  border-radius: 7%;
+  width: 18%;
+  height: 100%;
+  padding: 2%;
+  margin: 2%;
+}
+.nft:hover {
+  background-color: rgb(196, 222, 243);
+  cursor: pointer;
+}
+
+.nftImg {
+  width: 80%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.nftInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+.price > * {
+  padding: 1%;
+}

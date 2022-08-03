@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+}
+.form > input {
+  margin: 2%;
+  height: 2.5rem;
+  border: 2px solid rgb(174, 174, 174);
+  border-radius: 30px;
+  padding: 20px;
+}
+.form > button {
+  width: 28%;
+  height: 2.8rem;
+  margin: 2.5%;
+  border-radius: 20px;
+  border: none;
+  background-color: #2a8640;
+  font-weight: bold;
+  color: white;
+}
+.form > button:hover {
+  background-color: #206c32;
+  cursor: pointer;
+}
