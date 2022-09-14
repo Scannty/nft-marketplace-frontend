@@ -1,0 +1,29 @@
+.forgery {
+  background-color: #e9edc9;
+  border-radius: 25px;
+  margin-left: 55%;
+  margin-top: -21%;
+  padding: 1%;
+  padding-bottom: 1.5%;
+  width: 16%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forge--button {
+  margin-left: 8%;
+  margin-top: 10%;
+  background-color: #fcbf49;
+  width: 70%;
+  height: 5vh;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.forge--button:hover {
+  background-color: #ffb703;
+  cursor: pointer;
+}
